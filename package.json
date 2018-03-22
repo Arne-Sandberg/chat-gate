@@ -1,0 +1,32 @@
+{
+  "name": "colu-gate",
+  "version": "1.0.0",
+  "description": "This is gate (reverse proxy) for the main colu chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "chat",
+    "service"
+  ],
+  "author": "Avishay Ben Shabtai",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/http-proxy": "1.16.0",
+    "@types/node": "8.9.4",
+    "@types/q": "1.0.7",
+    "del": "3.0.0",
+    "event-stream": "3.3.4",
+    "gulp": "3.9.1",
+    "gulp-mocha": "5.0.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-typescript": "4.0.1",
+    "typescript": "2.7.2"
+  },
+  "dependencies": {
+    "chat-core": "1.0.x",
+    "http-proxy": "1.16.2",
+    "q": "1.5.1"
+  }
+}

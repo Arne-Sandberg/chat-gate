@@ -1,0 +1,12 @@
+*.js.map
+typings
+*.ts
+!*.d.ts
+*.log
+typings.json
+tslint.json
+tsconfig.json
+Gulpfile.js
+.editorconfig
+*.tgz
+build_output
