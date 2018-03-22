@@ -1,7 +1,7 @@
 {
-  "name": "colu-gate",
+  "name": "chat-gate",
   "version": "1.0.0",
-  "description": "This is gate (reverse proxy) for the main colu chat application",
+  "description": "This is gate (reverse proxy) for the main chat application",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
